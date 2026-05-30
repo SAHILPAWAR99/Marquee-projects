@@ -1,0 +1,23 @@
+h1{
+    width:350px;
+color:#D92243;
+background-color: #FFF5E5;
+border: 2px solid #F69D39;
+padding-left: 30px;
+}
+
+div{
+    display:grid;
+}
+
+a{
+    color:#D92243;
+    background-color:#FFF5E5;
+    border:#D92243 2px solid;
+    padding: 10px;
+}
+
+body{
+    background:linear-gradient(to bottom,red,yellow);
+    height: 100vh;
+}

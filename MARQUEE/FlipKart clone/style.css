@@ -1,0 +1,60 @@
+*{
+    margin:2px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.logo{
+    display: inline-block;
+    background-color: yellow;
+    font-weight: 600;
+    font-size: 18px;
+    font-style: italic;
+    padding: 10px 15px;
+    border-radius: 10px;
+    margin:10px;
+    }
+.travel{
+    display: inline-block;
+    background-color: aliceblue;
+    font-size: 18px;
+    font-weight: 600;
+    font-style: italic;
+    padding: 10px 15px;
+    border-radius: 12px;
+}
+.location{
+    display: inline-block;
+    margin-left: 70%;
+    font-size: 19px;
+}
+.div{
+    display:inline-block;
+    justify-content: space-evenly;
+    height:40px;
+    width:60px;
+    margin-left:10px;
+    background-color: blue;
+}
+input{
+    width: 80%;
+    margin: 25px;
+    margin-left: 20px;
+    padding: 9px;
+    border-radius: 8px;
+    border: solid rgb(146, 116, 223);
+}
+header{
+    border:2px solid black;
+}
+.hero{
+    height:100px;
+    width:120px;
+
+}
+
+img{
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+}
+
