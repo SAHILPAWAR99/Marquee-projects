@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1 align="center"><strong>Student Feedback Form</strong></h1>
+    <form>
+        <fieldset>
+            <legend><strong>Student Information</strong></legend>
+            <label for="name">Name:</label>
+            <input type="text" id="name" placeholder="eg.John Doe">
+            <br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="eg.johndoe@example.com">
+            <br><br>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" placeholder="eg.123-456-7890">
+            <br><br>
+
+            <label for="text">Batch:</label>
+            <select id="text">
+                <option value="test" selected disabled hidden>Select Batch</option>
+                <option value="batch1">Batch 1</option>
+                <option value="batch2">Batch 2</option>
+                <option value="batch3">Batch 3</option>
+                <option value="batch4">Batch 4</option>
+                <option value="batch5">Batch 5</option>
+                <option value="batch6">Batch 6</option>
+                <option value="batch7">Batch 7</option>
+                <option value="batch8">Batch 8</option>
+                <option value="batch9">Batch 9</option>
+                <option value="batch10">Batch 10</option>
+            </select>
+            <br><br>
+
+<label for="dob">Date of Birth:</label>
+            <input type="date" id="dob">
+            <br><br>
+
+            <label>Gender:</label><br>
+            <label for="gen">Male</label>
+            <input id="gen" Type="radio"><br>
+            <label for="gen">Female</label>
+            <input id="gen" Type="radio">
+            <br><br>
+
+            <label for="passout">Year of Passout:</label>
+            <select id="passout" >
+                <option value="test" selected disabled hidden>Select Year of Passout</option>
+                <option value="2026">2026</option>
+                <option value="2027">2027</option>
+                <option value="2028">2028</option>
+            </select>
+            <br><br>
+
+            <label for="feedback">Feedback:</label><br>
+            <input id="feedback" type="text" placeholder="Write your feedback here...." style="height: 200px; width: 500px;"><br><br>
+            <input type="submit" value="Submit"> 
+
+        </fieldset>
+    </form>
+</body>
+</html>

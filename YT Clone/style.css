@@ -1,0 +1,80 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial;
+}
+body{
+    background:black;
+    color:white;
+}
+.top-bar{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:15px;
+    margin-top:20px;
+}
+.search-box{
+    width:500px;
+    height:40px;
+    background:#121212;
+    border:1px solid gray;
+    border-radius:20px;
+    color:white;
+    padding-left:15px;
+}
+.create-btn,.go-live-btn{
+    background:#222;
+    color:white;
+    border:none;
+    padding:10px 20px;
+    border-radius:20px;
+    cursor:pointer;
+}
+.categories{
+    padding:20px;
+}
+
+.categories button{
+    background:#222;
+    color:white;
+    border:none;
+    padding:10px 15px;
+    border-radius:10px;
+    margin-right:10px;
+}
+
+
+.videos{
+    padding-left:20px;
+}
+
+
+.card{
+    width:31%;
+    display:inline-block;
+    margin-right:20px;
+    vertical-align:top;
+}
+
+.card img{
+    width:100%;
+    border-radius:15px;
+}
+
+
+.title{
+    font-size:24px;
+    margin-top:10px;
+    font-weight:bold;
+}
+
+.channel{
+    color:gray;
+    margin-top:8px;
+}
+.views{
+    color:gray;
+    margin-top:5px;
+}

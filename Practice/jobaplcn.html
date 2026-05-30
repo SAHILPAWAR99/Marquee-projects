@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JO APPLICATION FORM</title>
+</head>
+<body bgcolor="darkblue" style="color:white; font-family:Verdana, Geneva, Tahoma, sans-serif;">
+    <!-- JOB APPLICATION FORM  -->
+     <header>
+        <marquee direction="right"><h1><strong>JOB APPLICATION FORM</strong></h1></marquee>
+    </header>
+    <!--FORM-->
+    <form>
+        <!--Personal Information-->
+    <fieldset>
+        <legend><b>Personal Information</b></legend>
+        <label for="name">Name:</label>
+        <input type="text" id="name" placeholder="eg.John Doe" required>
+        <br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="eg.johndoe@example.com">
+        <br><br>
+        <label for="phone">Phone Number:</label>    
+        <input type="tel" id="phone" placeholder="eg.123-456-7890">
+        <br><br>
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob">
+        <br><br>
+        <label for="gender">Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label>
+        <br><br>
+        <label for="text">Position Applied For:</label>
+        <select id="text">
+            <option value="test" selected disabled hidden>Select Position</option>
+            <option value="software">Software Engineer</option>
+            <option value="data">Data Analyst</option>
+            <option value="marketing">Marketing Manager</option>
+            <option value="hr">HR Specialist</option>
+            <option value="team">Team Lead</option>
+            <option value="ai">AI Developer</option>
+            <option value="intern">Intern</option>
+        </select>
+    </fieldset>
+    <!-- Educational Qualifications -->
+    <fieldset>
+        <legend><b>Educational Qualifications</b></legend>
+        <label for="degree">Highest Degree:</label>
+        <select id="degree">
+            <option value="test" selected disabled hidden>Select Degree</option>
+            <option value="bachelor">Bachelor's</option>
+            <option value="master">Master's</option>
+            <option value="phd">PhD</option>
+            <option value="12th">12th Passout</option>
+            <option value="10th">10th Passout</option>
+        </select>
+        <br><br>
+        <label for="university">University/College:</label>
+        <input type="text" id="university" placeholder="eg. Parul University"><i>tip: If no university type N/A</i>
+        <br><br>
+        <label for="graduation">Year of Graduation:</label>
+        <select id="graduation">
+            <option value="test" selected disabled hidden>Select Year of Graduation</option>
+
+            <option value="n/a">N/A</option>
+            <option value="2020">2020</option>
+            <option value="2021">2021</option>
+            <option value="2022">2022</option>
+            <option value="2023">2023</option>
+            <option value="2024">2024</option>
+            <option value="2024">2025</option>
+            <option value="2024">2026</option>
+            <option value="2024">2027</option>
+            <option value="2024">2028</option>
+        </select>
+    </fieldset>
+    <!-- Work Experience -->
+    <fieldset>
+        <legend><b>Work Experience</b></legend>
+        <label for="experience">Years of Experience:</label>
+        <select id="experience">
+            <option value="test" selected disabled hidden>Select Experience</option>
+            <option value="fresher">Fresher</option>
+            <option value="1-2">1-2 years</option>
+            <option value="3-5">3-5 years</option>
+            <option value="5+">5+ years</option>
+        </select>
+        <br><br>
+        <label for="skills"><b>Key Skills:</b></label><br>
+        <input type="checkbox" id="skills" name="skills" value="programming">
+        <label for="skills">Programming</label><br>
+        <input type="checkbox" id="skills" name="skills" value="communication">
+        <label for="skills">Communication</label><br>
+        <input type="checkbox" id="skills" name="skills" value="leadership">
+        <label for="skills">Leadership</label><br>
+        <input type="checkbox" id="skills" name="skills" value="problem-solving">
+        <label for="skills">Problem Solving</label><br>
+        <input type="checkbox" id="skills" name="skills" value="teamwork">
+        <label for="skills">Teamwork</label>
+        <br><br>
+        <label for="expertise"><b>Programming Experience:</b></label><br>
+        <input type="checkbox" id="expertise" name="expertise" value="python">
+        <label for="expertise">Python</label><br>
+        <input type="checkbox" id="expertise" name="expertise" value="java">
+        <label for="expertise">Java</label><br>
+        <input type="checkbox" id="expertise" name="expertise" value="javascript">
+        <label for="expertise">JavaScript</label><br>
+        <input type="checkbox" id="expertise" name="expertise" value="c++">
+        <label for="expertise">C++</label><br>
+        <input type="checkbox" id="expertise" name="expertise" value="sql">
+        <label for="expertise">SQL</label><br>
+        <input type="checkbox" id="expertise" name="expertise" value="html">
+        <label for="expertise">HTML/CSS</label><br>
+        <input type="checkbox" id="expertise" name="expertise" value="other">
+        <label for="expertise">Other</label>
+        <textarea id="expertise" placeholder="If other, please specify here..." style="display:none;"></textarea>
+        <br><br>
+        <label for="company">Previous Company:</label>
+        <input type="text" id="company" placeholder="eg. Google">
+        <br><br>
+        <label for="resume">Upload Resume:</label>
+        <input type="file" id="resume" accept=".pdf,.doc,.docx" maxfile="5MB">
+        <BR><BR>
+        <label for="additional">Additional Information:</label>
+        <textarea rows="4" cols="30" id="additional" placeholder="Please provide any additional information you'd like to share."></textarea>
+    </fieldset>
+    <input type="submit" value="Submit"><input type="reset" value="reset">
+</form>
+</body>
+</html>

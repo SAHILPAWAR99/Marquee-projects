@@ -1,0 +1,22 @@
+ body{
+    background-color:linear-gradient(to top,rgb(185, 179, 179),white);
+    zoom:100%;
+} 
+.box{
+    border:2px solid black;
+    width:300px;
+    height:500px;
+    text-align:center;
+    background:linear-gradient(to top,rgb(185, 179, 179),white);
+    border-radius: 4px;
+}
+
+img{
+    border-radius: 50%;
+    border:3px solid rgb(0, 0, 0);
+    padding:7px;
+}
+
+button{
+    margin:2px;
+}
