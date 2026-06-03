@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex website</title>
+    <style>
+        body{
+            margin:0;
+            padding:0;
+            background-color:beige;
+        }
+        .header{
+            display:flex;
+            width:100%;
+            height:50px;
+            background-color:black;
+            color:white;
+            align-items:center;
+            justify-content:space-around;  
+            position:sticky;
+        }
+
+        .text{
+            display:flex;
+            flex-direction:column;
+            align-content:center;
+            align-items:center;
+            justify-content:center;
+            flex-wrap:stretch;
+            padding-top:200px;
+        }
+
+        h2{
+            font-weight:bolder;
+            font-size:50px;
+        }
+        p{
+            margin-top:-20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <a>Home</a>
+        <a>Blog</a>
+        <a>About</a>
+        <a>Content</a>
+        <a>Explore</a>
+    </div>
+
+    <div class="main">
+        <div class="text">
+        <h2>Welcome to the website</h2>
+        <p>This is my website</p>
+        </div>
+    </div>
+</body>
+</html>
