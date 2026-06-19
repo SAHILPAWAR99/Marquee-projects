@@ -31,3 +31,25 @@
     width: 100px;
     height: 100px;
 }
+
+.box:nth-child(1){
+    order:1;
+    /* flex-grow:1; */
+    flex-shrink:5;
+    flex-basis: 50px;
+    align-self: center;
+}
+.box:nth-child(2){
+    order:3;
+     flex-grow:1; 
+    /* flex-shrink:5; */
+    flex-basis: 50px;
+    align-self: flex-start;
+}
+.box:nth-child(3){
+    order:2;
+    /* flex-grow:1; */
+    flex-shrink:5;
+    flex-basis: 500px;
+    align-self: center;
+}
